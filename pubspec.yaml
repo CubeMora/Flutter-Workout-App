@@ -1,0 +1,50 @@
+name: project
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  google_nav_bar: ^5.0.6
+  line_icons: ^2.0.3
+  fl_chart: ^0.64.0
+  hive: ^2.2.3
+
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.8
+  simple_circular_progress_bar: ^1.0.2
+  firebase_core: ^2.21.0
+  cloud_firestore: ^4.12.2
+  firebase_storage: ^11.4.1
+  flutter_native_splash: ^2.3.5
+  flutter_rating_stars: ^1.0.3+4
+  icons_launcher: ^2.1.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Halenoir
+      fonts:
+        - asset: fonts/HalenoirCompactText-Bold.otf
+        - asset: fonts/Halenoir-Black.otf
+          weight: 100
+        - asset: fonts/Halenoir-Bold.otf
+          weight: 200
+        - asset: fonts/HalenoirCompact-Light.otf
+          weight: 300
+          
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
+    - assets/svg/
+    
